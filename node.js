@@ -43,4 +43,8 @@ const server = http.createServer((req, res) => {
  res.statusCode = 200;
  res.end("<html><body><h1>Hello, World!</h1></body></html")
 })
+"scripts" (
+    "start"= "node node.js",
+    "test"= "echo \"Error: no test specified\" && exit 1"
+);
 server.listen(port, hostname);
