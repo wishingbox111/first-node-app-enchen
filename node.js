@@ -48,3 +48,7 @@ const server = http.createServer((req, res) => {
     "test"= "echo \"Error: no test specified\" && exit 1"
 );
 server.listen(port, hostname);
+
+
+//still has problem with npm start. But npm install express works. Tired delete folder and clone again but didn't work toooo.
+
